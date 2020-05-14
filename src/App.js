@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
 import { BASE_URL, API_KEY } from "./constants";
+import styled from "styled-components";
+
+import StyledImage from "./components";
 
 function App() {
   const [potd, setPotd] = useState(1);
@@ -21,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <h1>{potd.title}</h1>
-      <img src={potd.url} alt={potd.title} />
+      <StyledImage src={potd.url} alt={potd.title} />
       <p>{potd.date}</p>
       <p>{potd.explanation}</p>
     </div>

@@ -26,17 +26,17 @@ This project was put together using create-react-app (CRA). You will not need to
 - [😀] Add your team lead as collaborator on Github.
 - [😀] Clone your OWN version of the repository in your terminal
 - [😀] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-      Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [😀] Start up the app using `npm start`
+- [😀] Create a new branch: git checkout -b `<firstName-lastName>`.
+  Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [😀] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into master (student's Repository).
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [😀] Submit a Pull-Request to merge Branch into master (student's Repository).
+- [😀] Add your team lead as a reviewer on the pull-request
+- [😀] Your team lead will count the project as complete by merging the branch back into master.
+- [😀] Do your magic!
 
 # _Project - NASA APOD - Part I_
 

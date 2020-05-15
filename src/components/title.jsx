@@ -9,9 +9,14 @@ const StyledTitle = styled.h1`
   font-weight: bold;
   line-height: 0.9;
   text-align: center;
-  color: white;
+  color: transparent;
   flex-direction: column;
   align-content: center;
+
+  &:hover {
+    color: white;
+    transition: 300ms linear;
+  }
 `;
 
 export default StyledTitle;

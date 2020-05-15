@@ -12,10 +12,13 @@ const StyledTitle = styled.h1`
   color: transparent;
   flex-direction: column;
   align-content: center;
+  transition-timing-function: ease-in;
+  transition: 400ms;
 
   &:hover {
     color: white;
-    transition: 300ms linear;
+    transition-timing-function: ease-out;
+    transition: 500ms linear;
   }
 `;
 

@@ -4,7 +4,9 @@ import axios from "axios";
 import { BASE_URL, API_KEY } from "./constants";
 import styled from "styled-components";
 
-import StyledImage from "./components";
+import StyledImage from "./components/PotdBck";
+import StyledTitle from "./components/Title";
+import StyledOverlay from "./components/Overlay";
 
 function App() {
   const [potd, setPotd] = useState(1);
@@ -23,8 +25,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{potd.title}</h1>
       <StyledImage src={potd.url} alt={potd.title} />
+      <StyledOverlay>
+        <StyledTitle>{potd.title}</StyledTitle>
+      </StyledOverlay>
       <p>{potd.date}</p>
       <p>{potd.explanation}</p>
     </div>

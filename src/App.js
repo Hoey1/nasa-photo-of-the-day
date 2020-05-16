@@ -25,12 +25,16 @@ function App() {
 
   return (
     <div className="App">
-      <StyledImage src={potd.url} alt={potd.title} />
-      <StyledOverlay>
+      {/* <div class="fade"></div> */}
+
+      {/* <StyledOverlay> */}
+      <div class="crawl">
+        <StyledImage src={potd.url} alt={potd.title} />
         <StyledTitle>{potd.title}</StyledTitle>
-      </StyledOverlay>
-      <p>{potd.date}</p>
-      <p>{potd.explanation}</p>
+        <p>{potd.date}</p>
+        <p>{potd.explanation}</p>
+        {/* </StyledOverlay> */}
+      </div>
     </div>
   );
 }

@@ -9,6 +9,7 @@ const StyledImage = styled.img`
   box-sizing: border-box;
   color: white;
   background-size: cover;
+  /* position: absolute; */
 `;
 
 export default StyledImage;
